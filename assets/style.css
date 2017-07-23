@@ -1,0 +1,368 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/* Base Color */
+.text-primary {
+	color: #dc1010;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+/* Base Background */
+.background-primary {
+	background: #dc1010;
+}
+
+/* Base Button */
+.button-primary {
+	color: #ffffff !important;
+    background: #dc1010;
+    padding: 4px 15px;
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ffffff;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.button-primary:hover {
+	box-shadow: inset 0 100px 0 0 #ffffff;
+    color: #dc1010 !important;
+}
+
+.button-primary:focus {
+	text-decoration: initial;
+}
+
+/* Base Margin */
+.no-mar {
+	margin: 0px;
+}
+
+.no-pad {
+	padding: 0px;
+}
+
+/* Section Area */
+.section-area {
+	padding: 100px 0;
+	overflow: hidden;
+}
+
+.primary-heading {
+	font-family: 'Atma', cursive;
+	color: #dc1010;
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+/* Header CSS */
+header {
+	width: 100%;
+	background-color: #dc1010;
+}
+
+.logo {
+	display: table;
+	width: 100%;
+	height: 100px;
+}
+
+.logo a {
+	font-family: 'Yatra One', cursive;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.logo h2 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.menu {
+	display: table;
+	width: 100%;
+	height: 100px;
+}
+
+.menu nav {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.menu nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.menu nav ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+.menu nav ul li:first-child {
+	margin-left: 0px;
+}
+
+.menu nav ul li a {
+	color: #fff;
+	margin-top: 6px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.menu nav ul li:last-child a {
+	margin-right: 0px;
+}
+
+/* Search Area CSS */
+.search-area {
+	display: inline-block;
+	width: 100%;
+}
+
+.search-area .btn {
+	padding: 10px 12px;
+	font-size: 25px;
+	border-color: #DC1010;
+	background: #DC1010;
+	color: #fff;
+	height: 58px;
+}
+
+.search-area .form-control {
+	height: 58px;
+	font-size: 25px;
+	border-color: #DC1010;
+}
+
+.search-area .dropdown-menu a {
+	font-size: 25px;
+}
+
+.search-area button.dropdown-toggle:focus, button.dropdown-toggle:active, button.dropdown-toggle:hover {
+	color: #fff !important;
+	background-color: #ce0202 !important;
+} 
+
+.search-by-option {
+	min-width: 165px;
+}
+
+.search-by-option .btn {
+	min-width: 165px;
+}
+
+/* Hot Offer CSS */
+.hot-offer-single-item {
+	width: 25%;
+	float: left;
+	padding: 10px;
+}
+
+.hot-offer-single-item img {
+	width: 100%;
+	border: 1px solid silver;
+}
+
+/* Search By Area CSS */
+.search-by-area ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* Footer Area CSS */
+footer {
+	background-color: #DC1010;
+	color: #fff;
+}
+
+footer ul.about {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer ul.about li a {
+	color: #fff;
+}
+
+footer ul.social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer ul.social li {
+	float: left;
+	margin-right: 5px;
+}
+
+footer ul.social li a {
+	background: #fff;
+	color: #DC1010;
+	width: 30px;
+	height: 30px;
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	display: table;
+}
+
+footer ul.social li a i {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer ul.help {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer ul.help li span {
+	width: 20px;
+	display: inline-block;
+}
+
+footer ul.help li a {
+	color: #fff;
+}
+
+form.email-subs input {
+	border: none;
+	border-radius: 5px;
+	color: #333;
+	padding: 5px;
+}
+
+form.email-subs button {
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	color: #333;
+	margin-top: 5px;
+	padding: 5px 15px;
+	box-shadow: 1px 1px 4px #000;
+	padding-top: 10px;
+}
+
+.footer-bottom {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+.footer-bottom a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.footer-bottom p {
+	margin: 10px 0;
+}
+
+.footer_bottom_right {
+	text-align: right;
+}
+
+
+/* Login Modal */
+.login-register-modal {
+  transform: translateY(-100%);
+  opacity: 0;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.login-register-modal .modal-dialog {
+	width: 400px;
+}
+
+.login-register-modal label {
+	font-size: 16px;
+}
+
+.login-register-modal .btn {
+	color: #ffffff;
+	background: #dc1010;
+}
+
+.login-register-modal.in {
+  opacity: 1;
+  transform: translateY(10%);
+}
+
+.modal-backdrop.in {
+	opacity: 0.8;
+}
+
+.modal-backdrop {
+	background-color: #dc1010;
+}
+
+.login-register-modal .modal-footer {
+	text-align: left;
+}
+
+.login-register-modal .modal-footer a {
+	color: #dc1010;
+	font-size: 14px;
+}
+
+.login-register-modal .modal-footer p {
+	margin: 0;
+	font-size: 12px;
+}
